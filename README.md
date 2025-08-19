@@ -1,4 +1,4 @@
-Capstone Project Management & Review System
+#Capstone Project Management & Review System
 
 A role-based web application to streamline capstone project selection, guide/reviewer assignment, and review scheduling in colleges. The system automates manual tasks, provides dashboards for each role, and ensures transparent project tracking.
 
