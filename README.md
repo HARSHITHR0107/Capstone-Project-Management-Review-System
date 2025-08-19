@@ -1,58 +1,54 @@
-#Capstone Project Management & Review System
+# 🎓 Capstone Project Management & Review System  
 
-A role-based web application to streamline capstone project selection, guide/reviewer assignment, and review scheduling in colleges. The system automates manual tasks, provides dashboards for each role, and ensures transparent project tracking.
+A role-based web application to streamline **capstone project selection, guide/reviewer assignment, and review scheduling** in colleges.  
+The system automates manual tasks, provides dashboards for each role, and ensures transparent project tracking.  
 
-Features
+---
 
+## ✨ Features  
 
-👨‍💼 Admin
+### 👨‍💼 Admin  
+- Upload student, guide, and reviewer data in **JSON format**  
+- Upload predefined project titles  
+- Auto-assign guides and reviewers to groups  
+- Manage deadlines, view all progress, and generate reports  
 
-Upload student, guide, and reviewer data in JSON format.
+### 👩‍🎓 Students  
+- Form groups (up to 3 members)  
+- Select project titles (or propose new ones)  
+- Upload project-related documents (proposal, report, PPT, etc.)  
+- View assigned guide and reviewer  
+- Book review slots based on reviewer availability  
 
-Upload predefined project titles.
+### 👨‍🏫 Guides  
+- View assigned groups/projects  
+- Approve/reject proposed project titles  
+- Provide guidance and progress feedback  
 
-Auto-assign guides and reviewers to groups.
+### 📝 Reviewers  
+- View assigned projects  
+- Set **availability slots** for reviews  
+- Provide structured feedback and scores  
 
-Manage deadlines, view all progress, and generate reports.
+---
 
-👩‍🎓 Students
+## ⚙️ Tech Stack  
 
-Form groups (e.g., up to 3 members).
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js (Express.js) or Django  
+- **Database:** MongoDB / PostgreSQL  
+- **Authentication:** JWT / Firebase Auth (role-based)  
+- **File Storage:** Firebase Storage / AWS S3  
+- **Notifications:** Email / in-app alerts  
 
-Select project titles (or propose new ones).
+---
 
-Upload documents (proposal, reports, PPTs, etc.).
+## 📂 Project Structure  
 
-View assigned guide and reviewer.
-
-Book review slots based on reviewer availability.
-
-👨‍🏫 Guides
-
-View assigned groups/projects.
-
-Approve/reject proposed project titles.
-
-Track progress and provide feedback.
-
-📝 Reviewers
-
-View assigned projects.
-
-Set availability slots for review meetings.
-
-Provide structured feedback and scores.
-
-⚙️ Tech Stack
-
-Frontend: React.js, Tailwind CSS, HTML5, CSS3
-
-Backend: Node.js (Express.js) or Django
-
-Database: MongoDB / PostgreSQL
-
-Authentication: JWT / Firebase Auth (role-based)
-
-File Storage: Firebase Storage / AWS S3
-
-Notifications: Email / In-app alerts
+```bash
+capstone-project-management/
+│── backend/          # APIs, authentication, database models
+│── frontend/         # React.js frontend code
+│── data/             # JSON files for students, guides, reviewers, project titles
+│── docs/             # Project documents, reports, diagrams
+│── README.md         # Project documentation
